@@ -12,6 +12,10 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
     [Header("Layers (assign in editor)")]
     public List<MonoBehaviour> moveLayers = new();
 
+    readonly List<Toggle> toggles = new();
+    bool suppressToggleEvent;
+    int currentIndex = -1;
+
     void Start()
     {
         if (toggleParent == null)
@@ -37,6 +41,7 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
         }
 
         ClearChildren();
+        toggles.Clear();
 
         for (int i = 0; i < moveLayers.Count; i++)
         {
@@ -46,17 +51,53 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
             instance.name = label;
             instance.group = toggleGroup;
             SetToggleLabel(instance, label);
+            toggles.Add(instance);
             instance.onValueChanged.AddListener(isOn =>
             {
+                if (suppressToggleEvent)
+                {
+                    return;
+                }
                 if (isOn)
                 {
-                    SetActiveLayer(index);
+                    ActivateLayer(index);
                 }
             });
             instance.isOn = index == 0;
         }
 
-        SetActiveLayer(0);
+        ActivateLayer(0);
+    }
+
+    public void ActivateLayer(int activeIndex)
+    {
+        if (activeIndex < 0 || activeIndex >= moveLayers.Count)
+        {
+            return;
+        }
+
+        if (currentIndex == activeIndex)
+        {
+            return;
+        }
+
+        currentIndex = activeIndex;
+
+        if (toggles.Count == moveLayers.Count)
+        {
+            suppressToggleEvent = true;
+            for (int i = 0; i < toggles.Count; i++)
+            {
+                Toggle toggle = toggles[i];
+                if (toggle != null)
+                {
+                    toggle.isOn = i == activeIndex;
+                }
+            }
+            suppressToggleEvent = false;
+        }
+
+        SetActiveLayer(activeIndex);
     }
 
     void SetActiveLayer(int activeIndex)
@@ -85,13 +126,11 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
             return;
         }
 
-        #if TMP_PRESENT
         TMPro.TMP_Text tmpText = toggle.GetComponentInChildren<TMPro.TMP_Text>();
         if (tmpText != null)
         {
             tmpText.text = text;
         }
-        #endif
     }
 
     void ClearChildren()
