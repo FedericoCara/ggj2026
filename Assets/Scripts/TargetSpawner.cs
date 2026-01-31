@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 public class TargetSpawner : MonoBehaviour
 {
@@ -9,6 +11,12 @@ public class TargetSpawner : MonoBehaviour
     public TargetColorPalette colorPalette;
     public List<Color> spawnedColors = new List<Color>();
     public bool hasSpawned;
+    public GameObject maskObject;
+
+    private void Awake()
+    {
+        maskObject.SetActive(true);
+    }
 
     void Start()
     {
