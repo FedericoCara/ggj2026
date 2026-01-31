@@ -3,6 +3,7 @@ using UnityEngine;
 public class DragWithinSpriteBounds : MonoBehaviour
 {
     public SpriteRenderer background;
+    public Vector2 clampOffset;
 
     bool isDragging;
     Vector3 dragOffset;
@@ -89,10 +90,10 @@ public class DragWithinSpriteBounds : MonoBehaviour
         Bounds bg = background.bounds;
         Vector3 extents = GetTargetBounds().extents;
 
-        float minX = bg.min.x + extents.x;
-        float maxX = bg.max.x - extents.x;
-        float minY = bg.min.y + extents.y;
-        float maxY = bg.max.y - extents.y;
+        float minX = bg.min.x + extents.x - clampOffset.x;
+        float maxX = bg.max.x - extents.x + clampOffset.x;
+        float minY = bg.min.y + extents.y - clampOffset.y;
+        float maxY = bg.max.y - extents.y + clampOffset.y;
 
         if (minX > maxX)
         {
