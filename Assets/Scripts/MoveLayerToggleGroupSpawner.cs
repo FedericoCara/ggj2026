@@ -100,6 +100,11 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
         SetActiveLayer(activeIndex);
     }
 
+    public int GetActiveLayerIndex()
+    {
+        return currentIndex;
+    }
+
     void SetActiveLayer(int activeIndex)
     {
         for (int i = 0; i < moveLayers.Count; i++)
