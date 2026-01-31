@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b810d268ce4564cb1b90d12e5586f2, type: 3}
+  m_Name: TargetColorPalette
+  m_EditorClassIdentifier: 
+  colors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0.1354196, b: 1, a: 1}
+  - {r: 1, g: 0.976174, b: 0, a: 1}
+  - {r: 1, g: 0, b: 0.7775011, a: 1}
+  - {r: 0, g: 1, b: 0.80083776, a: 1}
+  - {r: 0.08924115, g: 1, b: 0, a: 1}
+  - {r: 0.51507664, g: 0, b: 1, a: 1}
