@@ -1589,7 +1589,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -99.43999, y: -387.80765}
+  m_AnchoredPosition: {x: 807.75995, y: -400.76764}
   m_SizeDelta: {x: 121.12, y: 140.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143066778
@@ -1666,9 +1666,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec455e32d137074e934c91ebf90538e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSpawner: {fileID: 150278159}
   buttonPrefab: {fileID: 7733382205574424989, guid: 5b9efb15e0a6daf4d8308cd629d2ca48, type: 3}
   buttonParent: {fileID: 1143066777}
+  colorPalette: {fileID: 11400000, guid: 90c03e9a12986d04e939fc319ad584b8, type: 2}
 --- !u!1 &1184048047
 GameObject:
   m_ObjectHideFlags: 0

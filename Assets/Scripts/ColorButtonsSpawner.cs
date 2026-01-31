@@ -1,12 +1,11 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ColorButtonsSpawner : MonoBehaviour
 {
-    public TargetSpawner targetSpawner;
     public Button buttonPrefab;
     public Transform buttonParent;
+    public TargetColorPalette colorPalette;
 
     void Start()
     {
@@ -15,40 +14,24 @@ public class ColorButtonsSpawner : MonoBehaviour
             buttonParent = transform;
         }
 
-        StartCoroutine(SpawnWhenReady());
-    }
-
-    IEnumerator SpawnWhenReady()
-    {
-        if (targetSpawner == null)
-        {
-            Debug.LogWarning("[ColorButtonsSpawner] Missing targetSpawner.");
-            yield break;
-        }
-
         if (buttonPrefab == null)
         {
             Debug.LogWarning("[ColorButtonsSpawner] Missing buttonPrefab.");
-            yield break;
+            return;
         }
 
-        while (!targetSpawner.hasSpawned)
+        if (colorPalette == null || colorPalette.colors == null || colorPalette.colors.Count == 0)
         {
-            yield return null;
-        }
-
-        if (targetSpawner.spawnedColors == null || targetSpawner.spawnedColors.Count == 0)
-        {
-            Debug.LogWarning("[ColorButtonsSpawner] No colors to spawn.");
-            yield break;
+            Debug.LogWarning("[ColorButtonsSpawner] Missing color palette or colors.");
+            return;
         }
 
         ClearChildren();
 
-        for (int i = 0; i < targetSpawner.spawnedColors.Count; i++)
+        for (int i = 0; i < colorPalette.colors.Count; i++)
         {
             Button instance = Instantiate(buttonPrefab, buttonParent);
-            SetButtonColor(instance, targetSpawner.spawnedColors[i]);
+            SetButtonColor(instance, colorPalette.colors[i]);
         }
     }
 
