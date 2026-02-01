@@ -23,6 +23,7 @@ public class MoveLayerClickSwitch : MonoBehaviour
 
     SpriteRenderer targetRenderer;
     SpriteMask targetMask;
+    Collider2D targetCollider;
     Camera worldCamera;
     int lastActiveIndex = int.MinValue;
     MaterialPropertyBlock previewBlock;
@@ -43,6 +44,7 @@ public class MoveLayerClickSwitch : MonoBehaviour
     {
         targetRenderer = GetComponent<SpriteRenderer>();
         targetMask = GetComponent<SpriteMask>();
+        targetCollider = GetComponent<Collider2D>();
         worldCamera = Camera.main;
         previewBlock = new MaterialPropertyBlock();
     }
@@ -199,7 +201,11 @@ public class MoveLayerClickSwitch : MonoBehaviour
 
     bool IsMouseOverTarget(Vector3 mouseWorld)
     {
-        // Check if the mouse world position is inside the target bounds.
+        if (targetCollider != null)
+        {
+            return targetCollider.OverlapPoint(mouseWorld);
+        }
+
         Bounds bounds = GetTargetBounds();
         bool insideX = mouseWorld.x >= bounds.min.x && mouseWorld.x <= bounds.max.x;
         bool insideY = mouseWorld.y >= bounds.min.y && mouseWorld.y <= bounds.max.y;

@@ -10,12 +10,14 @@ public class DragWithinSpriteBounds : MonoBehaviour
     float targetZ;
     SpriteRenderer targetRenderer;
     SpriteMask targetMask;
+    Collider2D targetCollider;
     Camera worldCamera;
 
     void Awake()
     {
         targetRenderer = GetComponent<SpriteRenderer>();
         targetMask = GetComponent<SpriteMask>();
+        targetCollider = GetComponent<Collider2D>();
         worldCamera = Camera.main;
     }
 
@@ -78,6 +80,11 @@ public class DragWithinSpriteBounds : MonoBehaviour
 
     bool IsMouseOverTarget(Vector3 mouseWorld)
     {
+        if (targetCollider != null)
+        {
+            return targetCollider.OverlapPoint(mouseWorld);
+        }
+
         Bounds bounds = GetTargetBounds();
         bool insideX = mouseWorld.x >= bounds.min.x && mouseWorld.x <= bounds.max.x;
         bool insideY = mouseWorld.y >= bounds.min.y && mouseWorld.y <= bounds.max.y;
