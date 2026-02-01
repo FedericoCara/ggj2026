@@ -6,6 +6,7 @@ public class ColorButtonsSpawner : MonoBehaviour
     public Button buttonPrefab;
     public Transform buttonParent;
     public TargetColorPalette colorPalette;
+    public GameManager gameManager;
 
     void Start()
     {
@@ -28,10 +29,21 @@ public class ColorButtonsSpawner : MonoBehaviour
 
         ClearChildren();
 
+        if (gameManager == null)
+        {
+            Debug.LogWarning("[ColorButtonsSpawner] Missing gameManager reference.");
+        }
+
         for (int i = 0; i < colorPalette.colors.Count; i++)
         {
             Button instance = Instantiate(buttonPrefab, buttonParent);
-            SetButtonColor(instance, colorPalette.colors[i]);
+            Color buttonColor = colorPalette.colors[i];
+            SetButtonColor(instance, buttonColor);
+
+            if (gameManager != null)
+            {
+                instance.onClick.AddListener(() => gameManager.RegisterColorInput(buttonColor));
+            }
         }
     }
 

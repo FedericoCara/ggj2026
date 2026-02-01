@@ -70,7 +70,6 @@ public class MoveLayerClickSwitch : MonoBehaviour
                 {
                     return;
                 }
-                Debug.Log("[MoveLayerClickSwitch] Click detected. Switching to layer index " + layerIndex + ".");
                 // Notify the toggle group so it can activate the corresponding layer.
                 toggleGroup.ActivateLayer(layerIndex);
             }

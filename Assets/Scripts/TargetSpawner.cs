@@ -9,6 +9,7 @@ public class TargetSpawner : MonoBehaviour
     public List<Transform> spawnPoints = new List<Transform>();
     public int spawnCount = 5;
     public TargetColorPalette colorPalette;
+    public GameManager gameManager;
     public List<Color> spawnedColors = new List<Color>();
     public bool hasSpawned;
     public GameObject maskObject;
@@ -71,6 +72,7 @@ public class TargetSpawner : MonoBehaviour
         }
         Shuffle(colors);
 
+        Color[] orderedColors = new Color[count];
         for (int i = 0; i < count; i++)
         {
             int pointIndex = indices[i];
@@ -79,10 +81,23 @@ public class TargetSpawner : MonoBehaviour
             string order = numbers[i].ToString();
             Color color = colors[i];
             instance.SetTarget(color, order);
-            spawnedColors.Add(color);
+            int orderIndex = Mathf.Clamp(numbers[i] - 1, 0, count - 1);
+            orderedColors[orderIndex] = color;
         }
 
+        spawnedColors.Clear();
+        spawnedColors.AddRange(orderedColors);
+
         hasSpawned = true;
+
+        if (gameManager != null)
+        {
+            gameManager.SetTargetOrder(new List<Color>(orderedColors));
+        }
+        else
+        {
+            Debug.LogWarning("[TargetSpawner] Missing gameManager reference.");
+        }
     }
 
     void Shuffle<T>(List<T> list)
