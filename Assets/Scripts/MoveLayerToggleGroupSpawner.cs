@@ -12,12 +12,23 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
     [Header("Layers (assign in editor)")]
     public List<MonoBehaviour> moveLayers = new();
 
+    [Header("Audio")]
+    [SerializeField] AudioSource audioSource;
+    [SerializeField] List<AudioClip> switchClips = new();
+    readonly List<int> remainingClipIndices = new();
+
     readonly List<Toggle> toggles = new();
     bool suppressToggleEvent;
     int currentIndex = -1;
+    bool hasInitialized;
 
     void Start()
     {
+        if (audioSource == null)
+        {
+            audioSource = GetComponent<AudioSource>();
+        }
+
         if (toggleParent == null)
         {
             toggleParent = transform;
@@ -66,7 +77,9 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
             instance.isOn = index == 0;
         }
 
+        RefreshRemainingClips();
         ActivateLayer(0);
+        hasInitialized = true;
     }
 
     public void ActivateLayer(int activeIndex)
@@ -98,6 +111,11 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
         }
 
         SetActiveLayer(activeIndex);
+
+        if (hasInitialized)
+        {
+            PlayRandomClip();
+        }
     }
 
     public int GetActiveLayerIndex()
@@ -113,6 +131,41 @@ public class MoveLayerToggleGroupSpawner : MonoBehaviour
             if (layer != null)
             {
                 layer.enabled = i == activeIndex;
+            }
+        }
+    }
+
+    void PlayRandomClip()
+    {
+        if (audioSource == null || switchClips == null || switchClips.Count == 0)
+        {
+            return;
+        }
+
+        if (remainingClipIndices.Count == 0 || remainingClipIndices.Count > switchClips.Count)
+        {
+            RefreshRemainingClips();
+        }
+
+        int pickIndex = Random.Range(0, remainingClipIndices.Count);
+        int clipIndex = remainingClipIndices[pickIndex];
+        remainingClipIndices.RemoveAt(pickIndex);
+
+        AudioClip clip = switchClips[clipIndex];
+        if (clip != null)
+        {
+            audioSource.PlayOneShot(clip);
+        }
+    }
+
+    void RefreshRemainingClips()
+    {
+        remainingClipIndices.Clear();
+        for (int i = 0; i < switchClips.Count; i++)
+        {
+            if (switchClips[i] != null)
+            {
+                remainingClipIndices.Add(i);
             }
         }
     }
