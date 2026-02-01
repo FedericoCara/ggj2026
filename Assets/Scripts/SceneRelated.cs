@@ -9,9 +9,18 @@ public class SceneRelated : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void Exit()
+    public void ReturnHome()
     {
-        //SceneManager.LoadScene("Home");
-        Application.Quit();
+        SceneManager.LoadScene("Home");
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene("Game");
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
     }
 }
