@@ -11,6 +11,7 @@ public class SceneRelated : MonoBehaviour
 
     public void Exit()
     {
-        SceneManager.LoadScene("Home");
+        //SceneManager.LoadScene("Home");
+        Application.Quit();
     }
 }
