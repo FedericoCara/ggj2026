@@ -5,18 +5,14 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class ButtonRandomSound : MonoBehaviour
 {
-    [SerializeField] private AudioSource audioSource;
     [SerializeField] private List<AudioClip> clips = new List<AudioClip>();
+    [SerializeField, Range(0f, 1f)] private float volume = 1f;
 
     Button cachedButton;
 
     void Awake()
     {
         cachedButton = GetComponent<Button>();
-        if (audioSource == null)
-        {
-            audioSource = GetComponent<AudioSource>();
-        }
     }
 
     void OnEnable()
@@ -39,7 +35,7 @@ public class ButtonRandomSound : MonoBehaviour
 
     void PlayRandomClip()
     {
-        if (audioSource == null || clips == null || clips.Count == 0)
+        if (clips == null || clips.Count == 0)
         {
             return;
         }
@@ -48,7 +44,7 @@ public class ButtonRandomSound : MonoBehaviour
         AudioClip clip = clips[index];
         if (clip != null)
         {
-            audioSource.PlayOneShot(clip);
+            SfxManager.PlayClip(clip, volume);
         }
     }
 }
