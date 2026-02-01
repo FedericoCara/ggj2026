@@ -72,7 +72,43 @@ public class MoveLayerClickSwitch : MonoBehaviour
                 }
                 // Notify the toggle group so it can activate the corresponding layer.
                 toggleGroup.ActivateLayer(layerIndex);
+                TryStartDragOnActivatedLayer(cache.mouseWorld);
             }
+        }
+    }
+
+    void TryStartDragOnActivatedLayer(Vector3 mouseWorld)
+    {
+        if (toggleGroup == null || toggleGroup.moveLayers == null)
+        {
+            return;
+        }
+
+        if (!Input.GetMouseButton(0))
+        {
+            return;
+        }
+
+        if (layerIndex < 0 || layerIndex >= toggleGroup.moveLayers.Count)
+        {
+            return;
+        }
+
+        MonoBehaviour layer = toggleGroup.moveLayers[layerIndex];
+        if (layer == null || !layer.enabled)
+        {
+            return;
+        }
+
+        if (layer is MoveLayer moveLayer)
+        {
+            moveLayer.BeginDragFromMouse(mouseWorld);
+            return;
+        }
+
+        if (layer is DragWithinSpriteBounds spriteDrag)
+        {
+            spriteDrag.BeginDragFromMouse(mouseWorld);
         }
     }
 

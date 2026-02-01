@@ -42,7 +42,13 @@ public class ColorButtonsSpawner : MonoBehaviour
 
             if (gameManager != null)
             {
-                instance.onClick.AddListener(() => gameManager.RegisterColorInput(buttonColor));
+                PointerDownHandler pointerDown = instance.GetComponent<PointerDownHandler>();
+                if (pointerDown == null)
+                {
+                    pointerDown = instance.gameObject.AddComponent<PointerDownHandler>();
+                }
+
+                pointerDown.onPointerDown = () => gameManager.RegisterColorInput(buttonColor);
             }
         }
     }

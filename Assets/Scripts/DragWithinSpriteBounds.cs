@@ -31,9 +31,7 @@ public class DragWithinSpriteBounds : MonoBehaviour
             Vector3 mouseWorld = GetMouseWorldPosition();
             if (IsMouseOverTarget(mouseWorld))
             {
-                isDragging = true;
-                targetZ = transform.position.z;
-                dragOffset = transform.position - mouseWorld;
+                BeginDragFromMouse(mouseWorld);
             }
         }
 
@@ -50,6 +48,23 @@ public class DragWithinSpriteBounds : MonoBehaviour
             clamped.z = targetZ;
             transform.position = clamped;
         }
+    }
+
+    public void BeginDragFromMouse(Vector3 mouseWorld)
+    {
+        if (background == null || worldCamera == null)
+        {
+            return;
+        }
+
+        if (!IsMouseOverTarget(mouseWorld))
+        {
+            return;
+        }
+
+        isDragging = true;
+        targetZ = transform.position.z;
+        dragOffset = transform.position - mouseWorld;
     }
 
     Vector3 GetMouseWorldPosition()

@@ -36,9 +36,7 @@ public class MoveLayer : MonoBehaviour
             Vector3 mouseWorld = GetMouseWorldPosition();
             if (IsMouseOverBackground2D(mouseWorld))
             {
-                isDragging = true;
-                layerZ = layer.transform.position.z;
-                dragOffset = layer.transform.position - mouseWorld;
+                BeginDragFromMouse(mouseWorld);
             }
         }
 
@@ -55,6 +53,23 @@ public class MoveLayer : MonoBehaviour
             clamped.z = layerZ;
             layer.transform.position = clamped;
         }
+    }
+
+    public void BeginDragFromMouse(Vector3 mouseWorld)
+    {
+        if (background == null || layer == null || worldCamera == null)
+        {
+            return;
+        }
+
+        if (!IsMouseOverBackground2D(mouseWorld))
+        {
+            return;
+        }
+
+        isDragging = true;
+        layerZ = layer.transform.position.z;
+        dragOffset = layer.transform.position - mouseWorld;
     }
 
     Vector3 GetMouseWorldPosition()
