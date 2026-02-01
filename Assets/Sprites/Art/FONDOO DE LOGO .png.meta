@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: b96eb851bbcabd14593290282cc543d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5626629824194956283
+    second: FONDOO DE LOGO _0
+  - first:
+      213: -542647824014315881
+    second: FONDOO DE LOGO _1
+  - first:
+      213: 3142692567677417638
+    second: FONDOO DE LOGO _2
+  - first:
+      213: -5254845756894830564
+    second: FONDOO DE LOGO _3
+  - first:
+      213: -5629220666029720509
+    second: FONDOO DE LOGO _4
+  - first:
+      213: -7021269755493170607
+    second: FONDOO DE LOGO _5
+  - first:
+      213: -2951031706485049795
+    second: FONDOO DE LOGO _6
+  - first:
+      213: -2837142708779651335
+    second: FONDOO DE LOGO _7
+  - first:
+      213: 62207674549305078
+    second: FONDOO DE LOGO _8
+  - first:
+      213: 4600841762515736412
+    second: FONDOO DE LOGO _9
+  - first:
+      213: 4494082715775729155
+    second: FONDOO DE LOGO _10
+  - first:
+      213: 8944508491165575630
+    second: FONDOO DE LOGO _11
+  - first:
+      213: -6077654174626380575
+    second: FONDOO DE LOGO _12
+  - first:
+      213: 9107995223007316658
+    second: FONDOO DE LOGO _13
+  - first:
+      213: 1842389588503168387
+    second: FONDOO DE LOGO _14
+  - first:
+      213: 3626265331525535478
+    second: FONDOO DE LOGO _15
+  - first:
+      213: 8261791106356757480
+    second: FONDOO DE LOGO _16
+  - first:
+      213: -6110655423661965092
+    second: FONDOO DE LOGO _17
+  - first:
+      213: 1244574823020296773
+    second: FONDOO DE LOGO _18
+  - first:
+      213: -4015028451986663680
+    second: FONDOO DE LOGO _19
+  - first:
+      213: 3400988362033809971
+    second: FONDOO DE LOGO _20
+  - first:
+      213: -990366304741602581
+    second: FONDOO DE LOGO _21
+  - first:
+      213: 1199835893948705029
+    second: FONDOO DE LOGO _22
+  - first:
+      213: 6628587429307861515
+    second: FONDOO DE LOGO _23
+  - first:
+      213: -2506975306150956017
+    second: FONDOO DE LOGO _24
+  - first:
+      213: -2569165099790218177
+    second: FONDOO DE LOGO _25
+  - first:
+      213: 8151254289251228106
+    second: FONDOO DE LOGO _26
+  - first:
+      213: 5429732136257054086
+    second: FONDOO DE LOGO _27
+  - first:
+      213: -2375593410216943845
+    second: FONDOO DE LOGO _28
+  - first:
+      213: -9216465544527126164
+    second: FONDOO DE LOGO _29
+  - first:
+      213: -8538076945678029200
+    second: FONDOO DE LOGO _30
+  - first:
+      213: -1959088639213910134
+    second: FONDOO DE LOGO _31
+  - first:
+      213: -6424915690956274232
+    second: FONDOO DE LOGO _32
+  - first:
+      213: 7364507588067529195
+    second: FONDOO DE LOGO _33
+  - first:
+      213: -4176503368080719074
+    second: FONDOO DE LOGO _34
+  - first:
+      213: 5620150809519941569
+    second: FONDOO DE LOGO _35
+  - first:
+      213: 8202178791405688318
+    second: FONDOO DE LOGO _36
+  - first:
+      213: -6068119281797240644
+    second: FONDOO DE LOGO _37
+  - first:
+      213: 6270533751661168294
+    second: FONDOO DE LOGO _38
+  - first:
+      213: -5207272311853047082
+    second: FONDOO DE LOGO _39
+  - first:
+      213: 5347290323479393966
+    second: FONDOO DE LOGO _40
+  - first:
+      213: 2019107908222436360
+    second: FONDOO DE LOGO _41
+  - first:
+      213: -5489287558912925916
+    second: FONDOO DE LOGO _42
+  - first:
+      213: 3857075465659748366
+    second: FONDOO DE LOGO _43
+  - first:
+      213: 1285677881421939098
+    second: FONDOO DE LOGO _44
+  - first:
+      213: -5108338968886480320
+    second: FONDOO DE LOGO _45
+  - first:
+      213: 1664526636116603143
+    second: FONDOO DE LOGO _46
+  - first:
+      213: 6901752015121127705
+    second: FONDOO DE LOGO _47
+  - first:
+      213: -7713058610648793695
+    second: FONDOO DE LOGO _48
+  - first:
+      213: -2486178669390962400
+    second: FONDOO DE LOGO _49
+  - first:
+      213: -3042257347905710236
+    second: FONDOO DE LOGO _50
+  - first:
+      213: 2233163402062732934
+    second: FONDOO DE LOGO _51
+  - first:
+      213: -142117379535165763
+    second: FONDOO DE LOGO _52
+  - first:
+      213: -784401524978122130
+    second: FONDOO DE LOGO _53
+  - first:
+      213: -7318355840641129662
+    second: FONDOO DE LOGO _54
+  - first:
+      213: 345320748876238589
+    second: FONDOO DE LOGO _55
+  - first:
+      213: -960552826420734185
+    second: FONDOO DE LOGO _56
+  - first:
+      213: 3981333603394266546
+    second: FONDOO DE LOGO _57
+  - first:
+      213: -4830865336851730742
+    second: FONDOO DE LOGO _58
+  - first:
+      213: 3091285547385686442
+    second: FONDOO DE LOGO _59
+  - first:
+      213: -4190749016100052396
+    second: FONDOO DE LOGO _60
+  - first:
+      213: 4956680943416940880
+    second: FONDOO DE LOGO _61
+  - first:
+      213: -534322446930957352
+    second: FONDOO DE LOGO _62
+  - first:
+      213: -522603523722025767
+    second: FONDOO DE LOGO _63
+  - first:
+      213: 3145542521966187292
+    second: FONDOO DE LOGO _64
+  - first:
+      213: -5448420537506725632
+    second: FONDOO DE LOGO _65
+  - first:
+      213: 7962306816954761706
+    second: FONDOO DE LOGO _66
+  - first:
+      213: 1781896540444844576
+    second: FONDOO DE LOGO _67
+  - first:
+      213: -2020918988354631989
+    second: FONDOO DE LOGO _68
+  - first:
+      213: 5691297641090789632
+    second: FONDOO DE LOGO _69
+  - first:
+      213: -1534396756125016034
+    second: FONDOO DE LOGO _70
+  - first:
+      213: 2118580468144641722
+    second: FONDOO DE LOGO _71
+  - first:
+      213: 5917153324704973935
+    second: FONDOO DE LOGO _72
+  - first:
+      213: 7115020110104029329
+    second: FONDOO DE LOGO _73
+  - first:
+      213: -27748753644091167
+    second: FONDOO DE LOGO _74
+  - first:
+      213: 3805179161616409531
+    second: FONDOO DE LOGO _75
+  - first:
+      213: 1991538869056268801
+    second: FONDOO DE LOGO _76
+  - first:
+      213: -2196420097980013973
+    second: FONDOO DE LOGO _77
+  - first:
+      213: 1419472983659621307
+    second: FONDOO DE LOGO _78
+  - first:
+      213: 2929359317341828310
+    second: FONDOO DE LOGO _79
+  - first:
+      213: 4634285380424677133
+    second: FONDOO DE LOGO _80
+  - first:
+      213: 964591184655727612
+    second: FONDOO DE LOGO _81
+  - first:
+      213: -8642799826840412371
+    second: FONDOO DE LOGO _82
+  - first:
+      213: 7563264137578019814
+    second: FONDOO DE LOGO _83
+  - first:
+      213: 1228308184676695024
+    second: FONDOO DE LOGO _84
+  - first:
+      213: -3088895435428738536
+    second: FONDOO DE LOGO _85
+  - first:
+      213: 6382819628661016831
+    second: FONDOO DE LOGO _86
+  - first:
+      213: -5440801269447522571
+    second: FONDOO DE LOGO _87
+  - first:
+      213: -5749728251586954298
+    second: FONDOO DE LOGO _88
+  - first:
+      213: 4499707232443058779
+    second: FONDOO DE LOGO _89
+  - first:
+      213: -3752242581441648694
+    second: FONDOO DE LOGO _90
+  - first:
+      213: 5212068637319877441
+    second: FONDOO DE LOGO _91
+  - first:
+      213: 6434360305721195651
+    second: FONDOO DE LOGO _92
+  - first:
+      213: 1352492985913508588
+    second: FONDOO DE LOGO _93
+  - first:
+      213: 5597872780447677797
+    second: FONDOO DE LOGO _94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _0
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 4350
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb42c1930ec51e40800000000000000
+      internalID: 5626629824194956283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _1
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 4358
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eec7bdda02878f0800000000000000
+      internalID: -542647824014315881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _2
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 4325
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a83ca65d361d9b20800000000000000
+      internalID: 3142692567677417638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _3
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 4334
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10a0de10a90317b0800000000000000
+      internalID: -5254845756894830564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _4
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 4339
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cb20f01adf0e1b0800000000000000
+      internalID: -5629220666029720509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _5
+      rect:
+        serializedVersion: 2
+        x: 3119
+        y: 4336
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152c2af8b507f8e90800000000000000
+      internalID: -7021269755493170607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _6
+      rect:
+        serializedVersion: 2
+        x: 4842
+        y: 4332
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363b065c44db07d0800000000000000
+      internalID: -2951031706485049795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _7
+      rect:
+        serializedVersion: 2
+        x: 2904
+        y: 4310
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe691afcb170a8d0800000000000000
+      internalID: -2837142708779651335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _8
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 4311
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe70d7ec810dd000800000000000000
+      internalID: 62207674549305078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _9
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 4311
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57588ae43979df30800000000000000
+      internalID: 4600841762515736412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _10
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 4308
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ef8095b603e5e30800000000000000
+      internalID: 4494082715775729155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _11
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 4305
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9a36a2517412c70800000000000000
+      internalID: 8944508491165575630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _12
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 4310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e489bd9ab5d7aba0800000000000000
+      internalID: -6077654174626380575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _13
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 4309
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba4e4b2669166e70800000000000000
+      internalID: 9107995223007316658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _14
+      rect:
+        serializedVersion: 2
+        x: 3241
+        y: 4310
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3850c90c19b719910800000000000000
+      internalID: 1842389588503168387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _15
+      rect:
+        serializedVersion: 2
+        x: 4814
+        y: 4312
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6c4e23b15135230800000000000000
+      internalID: 3626265331525535478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _16
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 4311
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e340e60d37c7a270800000000000000
+      internalID: 8261791106356757480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _17
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 128
+        width: 7062
+        height: 4176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd080df8447923ba0800000000000000
+      internalID: -6110655423661965092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _18
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 4279
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54af48e153e954110800000000000000
+      internalID: 1244574823020296773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _19
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 4300
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0079f3c35e0c748c0800000000000000
+      internalID: -4015028451986663680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _20
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 3313
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a434465ecb23f20800000000000000
+      internalID: 3400988362033809971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _21
+      rect:
+        serializedVersion: 2
+        x: 7384
+        y: 3259
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea4c50d7138142f0800000000000000
+      internalID: -990366304741602581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _22
+      rect:
+        serializedVersion: 2
+        x: 7426
+        y: 3117
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5096397736ca6a010800000000000000
+      internalID: 1199835893948705029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _23
+      rect:
+        serializedVersion: 2
+        x: 7389
+        y: 3073
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ac38ea5297dfb50800000000000000
+      internalID: 6628587429307861515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _24
+      rect:
+        serializedVersion: 2
+        x: 7428
+        y: 3034
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f043238dd3f653dd0800000000000000
+      internalID: -2506975306150956017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _25
+      rect:
+        serializedVersion: 2
+        x: 7391
+        y: 2997
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c4ca924fd785cd0800000000000000
+      internalID: -2569165099790218177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _26
+      rect:
+        serializedVersion: 2
+        x: 7405
+        y: 2960
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9d2b0c6921f1170800000000000000
+      internalID: 8151254289251228106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _27
+      rect:
+        serializedVersion: 2
+        x: 7401
+        y: 2602
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685ef172c984a5b40800000000000000
+      internalID: 5429732136257054086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _28
+      rect:
+        serializedVersion: 2
+        x: 7424
+        y: 2515
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f924d3162380fd0800000000000000
+      internalID: -2375593410216943845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _29
+      rect:
+        serializedVersion: 2
+        x: 7390
+        y: 2454
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6165dd0b69881080800000000000000
+      internalID: -9216465544527126164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _30
+      rect:
+        serializedVersion: 2
+        x: 7426
+        y: 2423
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ea8eb2148a28980800000000000000
+      internalID: -8538076945678029200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _31
+      rect:
+        serializedVersion: 2
+        x: 7395
+        y: 2391
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87c628234befc4e0800000000000000
+      internalID: -1959088639213910134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _32
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 2355
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5c7b0483d16d6a0800000000000000
+      internalID: -6424915690956274232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _33
+      rect:
+        serializedVersion: 2
+        x: 7435
+        y: 2364
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be11f6ce1acf33660800000000000000
+      internalID: 7364507588067529195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _34
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 2332
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13835690541a06c0800000000000000
+      internalID: -4176503368080719074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _35
+      rect:
+        serializedVersion: 2
+        x: 7436
+        y: 2304
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c76f896269cefd40800000000000000
+      internalID: 5620150809519941569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _36
+      rect:
+        serializedVersion: 2
+        x: 7395
+        y: 2276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef59afd572ef3d170800000000000000
+      internalID: 8202178791405688318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _37
+      rect:
+        serializedVersion: 2
+        x: 7434
+        y: 2246
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8e6c9d9a5b9cba0800000000000000
+      internalID: -6068119281797240644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _38
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2219
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a68cd37939650750800000000000000
+      internalID: 6270533751661168294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _39
+      rect:
+        serializedVersion: 2
+        x: 7398
+        y: 2221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2a543fb6d0cb7b0800000000000000
+      internalID: -5207272311853047082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _40
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 2171
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea67fd1d734653a40800000000000000
+      internalID: 5347290323479393966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _41
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2142
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804c7c0e1ff450c10800000000000000
+      internalID: 2019107908222436360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _42
+      rect:
+        serializedVersion: 2
+        x: 7387
+        y: 2137
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f16057c0222d3b0800000000000000
+      internalID: -5489287558912925916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2110
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00168a43b5178530800000000000000
+      internalID: 3857075465659748366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _44
+      rect:
+        serializedVersion: 2
+        x: 7421
+        y: 2110
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a914bb9a835a7d110800000000000000
+      internalID: 1285677881421939098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _45
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2074
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0427c3fd5c88b19b0800000000000000
+      internalID: -5108338968886480320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _46
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2073
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701f7e01826991710800000000000000
+      internalID: 1664526636116603143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _47
+      rect:
+        serializedVersion: 2
+        x: 7386
+        y: 2071
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919912504e2f7cf50800000000000000
+      internalID: 6901752015121127705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _48
+      rect:
+        serializedVersion: 2
+        x: 7444
+        y: 2068
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adb2842f06b5f490800000000000000
+      internalID: -7713058610648793695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _49
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2037
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0216cca2ca15f7dd0800000000000000
+      internalID: -2486178669390962400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _50
+      rect:
+        serializedVersion: 2
+        x: 7409
+        y: 2034
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46712c68f0bb7c5d0800000000000000
+      internalID: -3042257347905710236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _51
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2010
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e1a59484acdfe10800000000000000
+      internalID: 2233163402062732934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _52
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1995
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6a56c0ff8170ef0800000000000000
+      internalID: -142117379535165763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _53
+      rect:
+        serializedVersion: 2
+        x: 7360
+        y: 1999
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62876e08fe3d15f0800000000000000
+      internalID: -784401524978122130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _54
+      rect:
+        serializedVersion: 2
+        x: 7451
+        y: 2011
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2432ea2232aff6a90800000000000000
+      internalID: -7318355840641129662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _55
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1963
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe075a3463dac400800000000000000
+      internalID: 345320748876238589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _56
+      rect:
+        serializedVersion: 2
+        x: 7411
+        y: 1967
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717d1392b4e6ba2f0800000000000000
+      internalID: -960552826420734185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _57
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1929
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b524aa71d9804730800000000000000
+      internalID: 3981333603394266546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _58
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1925
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace6437329155fcb0800000000000000
+      internalID: -4830865336851730742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _59
+      rect:
+        serializedVersion: 2
+        x: 7383
+        y: 1932
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa90937b3d376ea20800000000000000
+      internalID: 3091285547385686442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _60
+      rect:
+        serializedVersion: 2
+        x: 7447
+        y: 1932
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452e98039f777d5c0800000000000000
+      internalID: -4190749016100052396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _61
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1891
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05990517e0ba9c440800000000000000
+      internalID: 4956680943416940880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _62
+      rect:
+        serializedVersion: 2
+        x: 7415
+        y: 1900
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dba923c094b598f0800000000000000
+      internalID: -534322446930957352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _63
+      rect:
+        serializedVersion: 2
+        x: 7388
+        y: 1869
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d46e223dd65fb8f0800000000000000
+      internalID: -522603523722025767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _64
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1845
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c135ea7024637ab20800000000000000
+      internalID: 3145542521966187292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _65
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1843
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00108fa53625364b0800000000000000
+      internalID: -5448420537506725632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _66
+      rect:
+        serializedVersion: 2
+        x: 7405
+        y: 1852
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae182492ddbcf7e60800000000000000
+      internalID: 7962306816954761706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _67
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1811
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02266bf66719ab810800000000000000
+      internalID: 1781896540444844576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _68
+      rect:
+        serializedVersion: 2
+        x: 7430
+        y: 1826
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6c74b23e044f3e0800000000000000
+      internalID: -2020918988354631989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _69
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1782
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0013c300d0d8bfe40800000000000000
+      internalID: 5691297641090789632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _70
+      rect:
+        serializedVersion: 2
+        x: 7389
+        y: 1778
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1028a6a74ab4bae0800000000000000
+      internalID: -1534396756125016034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _71
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1748
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab697d706b5b66d10800000000000000
+      internalID: 2118580468144641722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _72
+      rect:
+        serializedVersion: 2
+        x: 7433
+        y: 1749
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64cf803993fd1250800000000000000
+      internalID: 5917153324704973935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _73
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1728
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198e288d711adb260800000000000000
+      internalID: 7115020110104029329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _74
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 1721
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e88514d7aa6d9ff0800000000000000
+      internalID: -27748753644091167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _75
+      rect:
+        serializedVersion: 2
+        x: 7396
+        y: 1588
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb36dda6946bec430800000000000000
+      internalID: 3805179161616409531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _76
+      rect:
+        serializedVersion: 2
+        x: 7428
+        y: 1537
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a6b7ebc0e53ab10800000000000000
+      internalID: 1991538869056268801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _77
+      rect:
+        serializedVersion: 2
+        x: 7393
+        y: 1506
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b626f5ade8fb481e0800000000000000
+      internalID: -2196420097980013973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _78
+      rect:
+        serializedVersion: 2
+        x: 7399
+        y: 1441
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbab4f682bf2b310800000000000000
+      internalID: 1419472983659621307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _79
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 1392
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4f3a957cc27a820800000000000000
+      internalID: 2929359317341828310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _80
+      rect:
+        serializedVersion: 2
+        x: 7419
+        y: 1417
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07bffffff9405040800000000000000
+      internalID: 4634285380424677133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _81
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1391
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbb0e2629ae26d00800000000000000
+      internalID: 964591184655727612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _82
+      rect:
+        serializedVersion: 2
+        x: 7399
+        y: 1372
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9e58595b9e0880800000000000000
+      internalID: -8642799826840412371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _83
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1367
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebf9c649ac16f860800000000000000
+      internalID: 7563264137578019814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _84
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1332
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbfb5e39c3db0110800000000000000
+      internalID: 1228308184676695024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _85
+      rect:
+        serializedVersion: 2
+        x: 7370
+        y: 1346
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ac1f697f90225d0800000000000000
+      internalID: -3088895435428738536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _86
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 1326
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff80bb772a4549850800000000000000
+      internalID: 6382819628661016831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _87
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1305
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6061172146e74b0800000000000000
+      internalID: -5440801269447522571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _88
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1296
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbb1295e9cd430b0800000000000000
+      internalID: -5749728251586954298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _89
+      rect:
+        serializedVersion: 2
+        x: 7433
+        y: 1301
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a460f23eb227e30800000000000000
+      internalID: 4499707232443058779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _90
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 226
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7631e904b5debc0800000000000000
+      internalID: -3752242581441648694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _91
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 217
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143d7689fccf45840800000000000000
+      internalID: 5212068637319877441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _92
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 220
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cb26b7b907b4950800000000000000
+      internalID: 6434360305721195651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _93
+      rect:
+        serializedVersion: 2
+        x: 4587
+        y: 220
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce20592743505c210800000000000000
+      internalID: 1352492985913508588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FONDOO DE LOGO _94
+      rect:
+        serializedVersion: 2
+        x: 4638
+        y: 226
+        width: 192
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d796092a3afad40800000000000000
+      internalID: 5597872780447677797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FONDOO DE LOGO _0: 5626629824194956283
+      FONDOO DE LOGO _1: -542647824014315881
+      FONDOO DE LOGO _10: 4494082715775729155
+      FONDOO DE LOGO _11: 8944508491165575630
+      FONDOO DE LOGO _12: -6077654174626380575
+      FONDOO DE LOGO _13: 9107995223007316658
+      FONDOO DE LOGO _14: 1842389588503168387
+      FONDOO DE LOGO _15: 3626265331525535478
+      FONDOO DE LOGO _16: 8261791106356757480
+      FONDOO DE LOGO _17: -6110655423661965092
+      FONDOO DE LOGO _18: 1244574823020296773
+      FONDOO DE LOGO _19: -4015028451986663680
+      FONDOO DE LOGO _2: 3142692567677417638
+      FONDOO DE LOGO _20: 3400988362033809971
+      FONDOO DE LOGO _21: -990366304741602581
+      FONDOO DE LOGO _22: 1199835893948705029
+      FONDOO DE LOGO _23: 6628587429307861515
+      FONDOO DE LOGO _24: -2506975306150956017
+      FONDOO DE LOGO _25: -2569165099790218177
+      FONDOO DE LOGO _26: 8151254289251228106
+      FONDOO DE LOGO _27: 5429732136257054086
+      FONDOO DE LOGO _28: -2375593410216943845
+      FONDOO DE LOGO _29: -9216465544527126164
+      FONDOO DE LOGO _3: -5254845756894830564
+      FONDOO DE LOGO _30: -8538076945678029200
+      FONDOO DE LOGO _31: -1959088639213910134
+      FONDOO DE LOGO _32: -6424915690956274232
+      FONDOO DE LOGO _33: 7364507588067529195
+      FONDOO DE LOGO _34: -4176503368080719074
+      FONDOO DE LOGO _35: 5620150809519941569
+      FONDOO DE LOGO _36: 8202178791405688318
+      FONDOO DE LOGO _37: -6068119281797240644
+      FONDOO DE LOGO _38: 6270533751661168294
+      FONDOO DE LOGO _39: -5207272311853047082
+      FONDOO DE LOGO _4: -5629220666029720509
+      FONDOO DE LOGO _40: 5347290323479393966
+      FONDOO DE LOGO _41: 2019107908222436360
+      FONDOO DE LOGO _42: -5489287558912925916
+      FONDOO DE LOGO _43: 3857075465659748366
+      FONDOO DE LOGO _44: 1285677881421939098
+      FONDOO DE LOGO _45: -5108338968886480320
+      FONDOO DE LOGO _46: 1664526636116603143
+      FONDOO DE LOGO _47: 6901752015121127705
+      FONDOO DE LOGO _48: -7713058610648793695
+      FONDOO DE LOGO _49: -2486178669390962400
+      FONDOO DE LOGO _5: -7021269755493170607
+      FONDOO DE LOGO _50: -3042257347905710236
+      FONDOO DE LOGO _51: 2233163402062732934
+      FONDOO DE LOGO _52: -142117379535165763
+      FONDOO DE LOGO _53: -784401524978122130
+      FONDOO DE LOGO _54: -7318355840641129662
+      FONDOO DE LOGO _55: 345320748876238589
+      FONDOO DE LOGO _56: -960552826420734185
+      FONDOO DE LOGO _57: 3981333603394266546
+      FONDOO DE LOGO _58: -4830865336851730742
+      FONDOO DE LOGO _59: 3091285547385686442
+      FONDOO DE LOGO _6: -2951031706485049795
+      FONDOO DE LOGO _60: -4190749016100052396
+      FONDOO DE LOGO _61: 4956680943416940880
+      FONDOO DE LOGO _62: -534322446930957352
+      FONDOO DE LOGO _63: -522603523722025767
+      FONDOO DE LOGO _64: 3145542521966187292
+      FONDOO DE LOGO _65: -5448420537506725632
+      FONDOO DE LOGO _66: 7962306816954761706
+      FONDOO DE LOGO _67: 1781896540444844576
+      FONDOO DE LOGO _68: -2020918988354631989
+      FONDOO DE LOGO _69: 5691297641090789632
+      FONDOO DE LOGO _7: -2837142708779651335
+      FONDOO DE LOGO _70: -1534396756125016034
+      FONDOO DE LOGO _71: 2118580468144641722
+      FONDOO DE LOGO _72: 5917153324704973935
+      FONDOO DE LOGO _73: 7115020110104029329
+      FONDOO DE LOGO _74: -27748753644091167
+      FONDOO DE LOGO _75: 3805179161616409531
+      FONDOO DE LOGO _76: 1991538869056268801
+      FONDOO DE LOGO _77: -2196420097980013973
+      FONDOO DE LOGO _78: 1419472983659621307
+      FONDOO DE LOGO _79: 2929359317341828310
+      FONDOO DE LOGO _8: 62207674549305078
+      FONDOO DE LOGO _80: 4634285380424677133
+      FONDOO DE LOGO _81: 964591184655727612
+      FONDOO DE LOGO _82: -8642799826840412371
+      FONDOO DE LOGO _83: 7563264137578019814
+      FONDOO DE LOGO _84: 1228308184676695024
+      FONDOO DE LOGO _85: -3088895435428738536
+      FONDOO DE LOGO _86: 6382819628661016831
+      FONDOO DE LOGO _87: -5440801269447522571
+      FONDOO DE LOGO _88: -5749728251586954298
+      FONDOO DE LOGO _89: 4499707232443058779
+      FONDOO DE LOGO _9: 4600841762515736412
+      FONDOO DE LOGO _90: -3752242581441648694
+      FONDOO DE LOGO _91: 5212068637319877441
+      FONDOO DE LOGO _92: 6434360305721195651
+      FONDOO DE LOGO _93: 1352492985913508588
+      FONDOO DE LOGO _94: 5597872780447677797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

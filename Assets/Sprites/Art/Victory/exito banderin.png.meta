@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 29b1fc29ccc66c3419706047898e9706
+guid: 3d70219db365c2a4ea1209de9c1b68f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8297112813988021062
-    second: JUEGOO mapa avances_0
+      213: 1038982615479998904
+    second: exito banderin_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JUEGOO mapa avances_0
+      name: exito banderin_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 8000
-        height: 4500
+        x: 807
+        y: 706
+        width: 2613
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abcf6ec0bdbbadc80800000000000000
-      internalID: -8297112813988021062
+      spriteID: 8b9dd7b1f253b6e00800000000000000
+      internalID: 1038982615479998904
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JUEGOO mapa avances_0: -8297112813988021062
+      exito banderin_0: 1038982615479998904
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

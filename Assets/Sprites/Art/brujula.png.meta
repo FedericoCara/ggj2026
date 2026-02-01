@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 29b1fc29ccc66c3419706047898e9706
+guid: 51945f659d85bad4dbb599d48b5af92f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8297112813988021062
-    second: JUEGOO mapa avances_0
+      213: -5502465461007319794
+    second: brujula_0
+  - first:
+      213: 7766152441399192701
+    second: brujula_1
+  - first:
+      213: 2770845395790123661
+    second: brujula_2
+  - first:
+      213: 6436937587737451227
+    second: brujula_3
+  - first:
+      213: -4730248044554494246
+    second: brujula_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 1500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +84,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -126,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JUEGOO mapa avances_0
+      name: brujula_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 8000
-        height: 4500
+        x: 1648
+        y: 2145
+        width: 167
+        height: 166
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abcf6ec0bdbbadc80800000000000000
-      internalID: -8297112813988021062
+      spriteID: e0d7dc701d053a3b0800000000000000
+      internalID: -5502465461007319794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brujula_1
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1141
+        width: 216
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ca125af7ae6cb60800000000000000
+      internalID: 7766152441399192701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brujula_2
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 343
+        width: 1767
+        height: 1763
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82d897f435047620800000000000000
+      internalID: 2770845395790123661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brujula_3
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 1141
+        width: 132
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda5376b1a8945950800000000000000
+      internalID: 6436937587737451227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brujula_4
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 133
+        width: 114
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aded7d42778ca5eb0800000000000000
+      internalID: -4730248044554494246
       vertices: []
       indices: 
       edges: []
@@ -161,7 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JUEGOO mapa avances_0: -8297112813988021062
+      brujula_0: -5502465461007319794
+      brujula_1: 7766152441399192701
+      brujula_2: 2770845395790123661
+      brujula_3: 6436937587737451227
+      brujula_4: -4730248044554494246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
