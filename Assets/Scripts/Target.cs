@@ -7,9 +7,11 @@ public class Target : MonoBehaviour
     public TMP_Text text;
     public Color lightColor = Color.white;
     public Color darkColor = Color.black;
+    public Color assignedColor = Color.white;
     
     public void SetTarget(Color color, string order)
     {
+        assignedColor = color;
         spriteRenderer.color = color;
         text.text = order;
         text.color = GetContrastingTextColor(color);

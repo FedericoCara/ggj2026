@@ -10,7 +10,9 @@ public class TargetSpawner : MonoBehaviour
     public int spawnCount = 5;
     public TargetColorPalette colorPalette;
     public GameManager gameManager;
+    public IndicatorPostController indicatorPostController;
     public List<Color> spawnedColors = new List<Color>();
+    public List<Target> spawnedTargets = new List<Target>();
     public bool hasSpawned;
     public GameObject maskObject;
 
@@ -23,6 +25,7 @@ public class TargetSpawner : MonoBehaviour
     {
         hasSpawned = false;
         spawnedColors.Clear();
+        spawnedTargets.Clear();
 
         if (targetPrefab == null)
         {
@@ -83,6 +86,7 @@ public class TargetSpawner : MonoBehaviour
             instance.SetTarget(color, order);
             int orderIndex = Mathf.Clamp(numbers[i] - 1, 0, count - 1);
             orderedColors[orderIndex] = color;
+            spawnedTargets.Add(instance);
         }
 
         spawnedColors.Clear();
@@ -97,6 +101,15 @@ public class TargetSpawner : MonoBehaviour
         else
         {
             Debug.LogWarning("[TargetSpawner] Missing gameManager reference.");
+        }
+
+        if (indicatorPostController != null)
+        {
+            indicatorPostController.SetTargets(new List<Target>(spawnedTargets));
+        }
+        else
+        {
+            Debug.LogWarning("[TargetSpawner] Missing indicatorPostController reference.");
         }
     }
 
