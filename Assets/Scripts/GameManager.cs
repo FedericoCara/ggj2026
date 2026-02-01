@@ -1,5 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,9 +10,12 @@ public class GameManager : MonoBehaviour
     public AudioClip failClip;
     public GameObject winPopup;
     public int requiredSequenceLength = 5;
+    public List<Image> semaphoreImages = new List<Image>();
 
     readonly List<Color> targetOrder = new List<Color>();
     readonly List<Color> inputSequence = new List<Color>();
+    Coroutine pendingReset;
+    bool inputLocked;
 
     public void SetTargetOrder(List<Color> order)
     {
@@ -26,11 +31,19 @@ public class GameManager : MonoBehaviour
         }
 
         inputSequence.Clear();
+        inputLocked = false;
+        SetAllSemaphoreAlpha(0f);
     }
 
     public void RegisterColorInput(Color color)
     {
+        if (inputLocked)
+        {
+            return;
+        }
+
         inputSequence.Add(color);
+        SetSemaphoreColor(inputSequence.Count - 1, color);
 
         if (inputSequence.Count < requiredSequenceLength)
         {
@@ -77,10 +90,9 @@ public class GameManager : MonoBehaviour
             audioSource.PlayOneShot(winClip);
         }
 
-        if (winPopup != null)
-        {
-            winPopup.SetActive(true);
-        }
+        inputLocked = true;
+        SetAllSemaphoreColors(Color.white);
+        StartDelayedPopup();
     }
 
     void HandleFail()
@@ -88,6 +100,86 @@ public class GameManager : MonoBehaviour
         if (audioSource != null && failClip != null)
         {
             audioSource.PlayOneShot(failClip);
+        }
+
+        inputLocked = true;
+        StartResetAfterDelay();
+    }
+
+    void SetSemaphoreColor(int index, Color color)
+    {
+        if (index < 0 || index >= semaphoreImages.Count)
+        {
+            return;
+        }
+
+        Image image = semaphoreImages[index];
+        if (image != null)
+        {
+            image.color = color;
+        }
+    }
+
+    void SetAllSemaphoreColors(Color color)
+    {
+        for (int i = 0; i < semaphoreImages.Count; i++)
+        {
+            Image image = semaphoreImages[i];
+            if (image != null)
+            {
+                image.color = color;
+            }
+        }
+    }
+
+    void SetAllSemaphoreAlpha(float alpha)
+    {
+        for (int i = 0; i < semaphoreImages.Count; i++)
+        {
+            Image image = semaphoreImages[i];
+            if (image != null)
+            {
+                Color current = image.color;
+                current.a = alpha;
+                image.color = current;
+            }
+        }
+    }
+
+    void StartResetAfterDelay()
+    {
+        if (pendingReset != null)
+        {
+            StopCoroutine(pendingReset);
+        }
+
+        pendingReset = StartCoroutine(ResetAfterDelay());
+    }
+
+    void StartDelayedPopup()
+    {
+        if (pendingReset != null)
+        {
+            StopCoroutine(pendingReset);
+        }
+
+        pendingReset = StartCoroutine(ShowPopupAfterDelay());
+    }
+
+    IEnumerator ResetAfterDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        inputSequence.Clear();
+        inputLocked = false;
+        SetAllSemaphoreAlpha(0f);
+    }
+
+    IEnumerator ShowPopupAfterDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        if (winPopup != null)
+        {
+            winPopup.SetActive(true);
         }
     }
 }
