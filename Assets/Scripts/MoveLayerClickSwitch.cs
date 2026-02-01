@@ -5,6 +5,9 @@ public class MoveLayerClickSwitch : MonoBehaviour
 {
     public MoveLayerToggleGroupSpawner toggleGroup;
     public int layerIndex;
+    public Renderer previewMesh;
+    public Color previewColor = new(1f, 0.5f, 0f, 1f);
+    public Color selectedColor = new(0.5f, 0f, 1f, 1f);
 
     static readonly List<MoveLayerClickSwitch> instances = new();
 
@@ -21,6 +24,10 @@ public class MoveLayerClickSwitch : MonoBehaviour
     SpriteRenderer targetRenderer;
     SpriteMask targetMask;
     Camera worldCamera;
+    int lastActiveIndex = int.MinValue;
+    MaterialPropertyBlock previewBlock;
+    static readonly int colorPropertyId = Shader.PropertyToID("_Color");
+    static readonly int baseColorPropertyId = Shader.PropertyToID("_BaseColor");
 
     void OnEnable()
     {
@@ -37,6 +44,7 @@ public class MoveLayerClickSwitch : MonoBehaviour
         targetRenderer = GetComponent<SpriteRenderer>();
         targetMask = GetComponent<SpriteMask>();
         worldCamera = Camera.main;
+        previewBlock = new MaterialPropertyBlock();
     }
 
     void Update()
@@ -45,6 +53,8 @@ public class MoveLayerClickSwitch : MonoBehaviour
         {
             return;
         }
+
+        SyncPreviewColor();
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -65,6 +75,40 @@ public class MoveLayerClickSwitch : MonoBehaviour
                 toggleGroup.ActivateLayer(layerIndex);
             }
         }
+    }
+
+    void SyncPreviewColor()
+    {
+        int activeIndex = toggleGroup.GetActiveLayerIndex();
+        if (activeIndex == lastActiveIndex)
+        {
+            return;
+        }
+
+        lastActiveIndex = activeIndex;
+        if (previewMesh == null)
+        {
+            return;
+        }
+
+        Color targetColor = activeIndex == layerIndex ? selectedColor : previewColor;
+        if (previewMesh is SpriteRenderer spriteRenderer)
+        {
+            spriteRenderer.color = targetColor;
+            return;
+        }
+
+        previewMesh.GetPropertyBlock(previewBlock);
+        if (previewMesh.sharedMaterial != null &&
+            previewMesh.sharedMaterial.HasProperty(baseColorPropertyId))
+        {
+            previewBlock.SetColor(baseColorPropertyId, targetColor);
+        }
+        else
+        {
+            previewBlock.SetColor(colorPropertyId, targetColor);
+        }
+        previewMesh.SetPropertyBlock(previewBlock);
     }
 
     GroupFrameCache GetOrBuildCache()
